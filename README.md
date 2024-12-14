@@ -1,18 +1,15 @@
 # zuanbootadmin
 
-## Project setup
+如果有疑问可以加我的微信：PurpleAutumnBreeze
+
+## 下载环境
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+### 运行项目
 ```
 npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
 ```
 
 ### Lints and fixes files
