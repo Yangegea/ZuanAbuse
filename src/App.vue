@@ -133,4 +133,30 @@ textarea {
 .copy-message.show {
   top: 20px;
 }
+
+/* 针对移动端的小屏幕设备*/
+@media screen and (max-width: 768px) {
+  #app {
+    margin-top: 20px;
+    /* 可以考虑让容器的宽度随手机屏幕走 */
+    width: 100%;
+  }
+
+  .input-container {
+    flex-direction: column; /* 竖着排列 */
+  }
+
+  input {
+    width: 90%; /* 减少输入框宽度，避免超出屏幕 */
+  }
+
+  #history {
+    width: 90%; /* 同理，历史记录也调宽度 */
+    margin-top: 10px;
+  }
+
+  textarea {
+    height: 200px; /* 让高度适配移动端 */
+  }
+}
 </style>
